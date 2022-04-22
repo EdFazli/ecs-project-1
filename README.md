@@ -15,3 +15,5 @@ ECS test
     `docker tag fazliecsrepo:latest 056913162044.dkr.ecr.ap-southeast-1.amazonaws.com/fazliecsrepo:latest`
 7. Push image to ECR
     `docker push 056913162044.dkr.ecr.ap-southeast-1.amazonaws.com/fazliecsrepo:latest`
+8. Create ECS Cluster
+9. Create task definition
