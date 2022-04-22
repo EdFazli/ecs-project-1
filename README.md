@@ -10,4 +10,4 @@ ECS test
 4. Authenticate ECR registry
     `aws ecr get-login-password --region <Region-Code> | docker login --username AWS --password-stdin <Account-Number>.dkr.ecr.<Region-Code>.amazonaws.com`
 5. Build the image
-    `docker build -t ecstest .`
+    `docker build -t fazliecsrepo .`
