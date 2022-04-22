@@ -11,3 +11,8 @@ ECS test
     `aws ecr get-login-password --region <Region-Code> | docker login --username AWS --password-stdin <Account-Number>.dkr.ecr.<Region-Code>.amazonaws.com`
 5. Build the image
     `docker build -t fazliecsrepo .`
+6. Tag image
+    `docker tag fazliecsrepo:latest 056913162044.dkr.ecr.ap-southeast-1.amazonaws.com/fazliecsrepo:latest`
+7. Push image to ECR
+    `docker push 056913162044.dkr.ecr.ap-southeast-1.amazonaws.com/fazliecsrepo:latest`
+    
