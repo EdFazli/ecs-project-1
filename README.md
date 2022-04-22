@@ -1,3 +1,9 @@
 # ecs-project-1
 
-GIA ECS test
+ECS test
+
+## Steps
+
+1. Create ECR Repository
+2. Create Cloud9/VSCode environment
+3. Create Docker image
